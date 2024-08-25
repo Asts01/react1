@@ -14,7 +14,9 @@
 }
 
 .todoWrapperHeading{
-  color: olivedrab;
+  color: #4A3B42;
+  /* color: #9C8481; */
+  /* color: olivedrab; */
 }
 
 .App {
@@ -36,8 +38,9 @@ body{
   padding-left: 10px;
   margin-left: 300px;
   margin-right: 300px;
-  background-color: olivedrab;
+  background-color: #4A3B42;
   border-radius: 15px;
+  border-color: white;
 }
 .todoText{
   size: 40rem;
@@ -57,7 +60,8 @@ body{
   margin-right: 7px;
 }
 .todoForm{
-  background-color: rgb(187, 214, 136);
+  /* background-color: rgb(187, 214, 136); */
+  background-color: #9C8481;
   margin-left: 430px;
   margin-right: 430px;
   padding-top: 15px;
@@ -71,7 +75,8 @@ body{
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 20px;
-  background-color: rgb(213, 224, 190);
+  background-color: #98ADB6;
+  /* background-color: rgb(213, 224, 190); */
 }
 .todoInput,.submitTaskButton,.editTaskButton{
   padding: 10px;
