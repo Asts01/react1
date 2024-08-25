@@ -1,24 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import { TodoForm } from './components/todoForm';
+import { TodoWrapper } from './components/todoWrapper';
 
 function App() {
   return (
+    //give App component flex of 1
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TodoWrapper className="todoWrapper"></TodoWrapper>
+      {/* <TodoForm></TodoForm> */}
+      {/* <footer>React Assignment-1</footer> */}
     </div>
+
   );
 }
 

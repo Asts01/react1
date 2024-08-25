@@ -1,6 +1,96 @@
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  /* background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center; */
+  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+}
+
+.todoWrapperHeading{
+  color: olivedrab;
+}
+
 .App {
   text-align: center;
+  background-color: beige;
 }
+body{
+  background-color: beige;
+}
+/* .className */
+.todo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Space between text and icons */
+  align-items: center; 
+  margin-top: 20px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+  padding-left: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: olivedrab;
+  border-radius: 15px;
+}
+.todoText{
+  size: 40rem;
+  text-align: left;
+  color: wheat;
+}
+.completed{
+  size: 20rem;
+  text-align: left;
+  color: wheat;
+  text-decoration: line-through;
+}
+.icons {
+  display: flex;
+  color: wheat;
+  gap: 10px; /* Add some space between the icons */
+  margin-right: 7px;
+}
+.todoForm{
+  background-color: rgb(187, 214, 136);
+  margin-left: 430px;
+  margin-right: 430px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+}
+.editTodoForm{
+  margin-top: 20px;
+  margin-left: 470px;
+  margin-right: 470px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  background-color: rgb(213, 224, 190);
+}
+.todoInput,.submitTaskButton,.editTaskButton{
+  padding: 10px;
+  border-radius: 10px;
+  border-color: black;
+  margin: 5px;
+}
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+.todoWrapper{
+  flex: 1;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* 
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +125,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
